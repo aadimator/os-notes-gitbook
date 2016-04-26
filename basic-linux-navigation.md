@@ -1,8 +1,8 @@
 # Navigation
-To work in a new environment, the most necessary skill in order to survive is to learn how to navigate that environemnt. If you are unalbe to do so, you won't be able to do anything else. You'll always feel like a mouse trapped in a maze. So, now we'll look at some of the basic commands for basic navigation in the Linux operating system.
+To work in a new environment, the most necessary skill in order to survive is to learn how to navigate that environment. If you are unable to do so, you won't be able to do anything else. You'll always feel like a mouse trapped in a maze. So, now we'll look at some of the basic commands for navigation in the Linux operating system.
 
 ## Finding where you are : pwd
-Imagine that you moved into a new city and you don't know anyone else there. You don't know any of the maps and directions and there are no board signs either to guide you. Well that'll be the case if you've never used linux before and you migrated from another OS like Windows. The very first thing that you'll need in order to survive in this new city is to get a sense of where you are. Whenever you feel like you are lost in the directories, you can easily find out about the directory that you are currently in. Imagine that. You won't have to go knocking on someone's door asking them about where you are. You'll just have to write a simple command in the Terminal and you'll immediatly know where you are. Isn't that cool? Okay, no further delay. Let's revel the magic spell, shall we?
+Imagine that you moved into a new city and you don't know anyone else there. You don't know any of the maps and directions and there are no board signs either to guide you. Well that'll be the case if you've never used Linux before and you migrated from another OS like Windows. The very first thing that you'll need in order to survive in this new city is to get a sense of where you are. Whenever you feel like you are lost in the directories, you can easily find out about the directory that you are currently in. Imagine that. You won't have to go knocking on someone's door asking them about where you are. You'll just have to write a simple command in the Terminal and you'll immediately know where you are. Isn't that cool? Okay, no further delay. Let's reveal the magic spell, shall we?
 ```
     $ pwd
 ```
@@ -27,7 +27,7 @@ It printed out the files and directories inside the `/usr` :
 ```
 ### with flags
 You can modify the output or the behavior of the command by using some flags with the command.  
-For example, if we issue this command in our home directory along with the `-l` flag (for 'long' output), it will list all the files and directories in the 'cwd' with extra details, like
+For example, if we issue `ls` in our home directory along with the `-l` flag (for 'long' output), it will list all the files and directories in the 'cwd' with extra details, like
 ```
     $ ls -l
 ```
@@ -47,7 +47,7 @@ Similarly, to show all the hidden files and directories in 'cwd', you can pass t
 ```
     $ ls -a
 ```
-## Let's move to someplace else with 'cd'
+## Let's move somewhere else with 'cd'
 You can easily move from one directory to another by using the `cd` command (stands for 'change directory'). For example, let's say I'm in my 'home' directory. Now to see where I can go, I'll type the `ls` command and see all the directories that I can go to.
 ```
     $ ls
@@ -74,12 +74,12 @@ If you are tired of just roaming around the Linux, and eager to create something
 ```
 This will create a new directory named "Test" in the `cwd`. It's as simple as that. You just have to provide the name of the directory that you want to create and it will create it for you and place it in the `cwd`.
 ## Let's Delete a Directory with rmdir
-Now, where there's construction, the destruction follows. There'll be a time when you want to delete some directory that you accidently made or no longer need. We got you covered there too. Just say the magic words (or more specifically, type them) and your wish will be granted. 
+Now, where there's construction, the destruction follows. There'll be a time when you want to delete some directory that you accidentally made or no longer need. We got you covered there too. Just say the magic words (or more specifically, type them) and your wish will be granted. 
 ```
     $ rmdir Test
 ```
 This will find the "Test" directory in the `cwd` and delete it.
 
 ## Wrap Up
-Now you know how to find where you are in the maze of directories, how to see the content of these directories, how to move from one directory to another, how to create a new direcotory and how to delete one.  
+Now you know how to find where you are in the maze of directories, how to see the content of these directories, how to move from one directory to another, how to create a new directory and how to delete one.  
 In the next chapter, we'll see some commands to work with files.
