@@ -1,5 +1,5 @@
 # Summary
 
-* [First Chapter](chapter1.md)
-* [Introduction](intro.md)
+* [Introduction](introduction.md)
 * [Basic Linux Concepts](basic-linux-concepts.md)
+* [Basic Navigation](basic-linux-navigation.md)

@@ -1,24 +1,4 @@
-+++
-date = "2016-03-20T19:28:24+05:00"
-title = "Basic Linux Concepts"
-draft = false
-
-tags = [
-    "linux",
-    "ubuntu",
-    "operating-system",
-    "concepts"
-]
-categories = [
-    "Development",
-    "Linux",
-    "Ubuntu",
-]
-description = "Here I will show some of the most basic commands to work in linux terminal like "
-+++
-
-If you are coming from the Windows OS, you will feel alienated at first because of the terminology used in Linux like directory, root directory, command arguments, flags etc.  
-Here I will show some of the most basic concepts, required to work effectively in the Linux world, to prove that although it seems like a difficult and cumbersome thing to learn, it really isn't much different from what you already know.
+# Basic Linux Concepts
 
 ## Basic Terminology
 
@@ -26,9 +6,9 @@ Here I will show some of the most basic concepts, required to work effectively i
 Terminal is a command-line-interface (CLI) where you write commands which are then executed by the operating system. It is equivalent to the Command Prompt in Windows but in the Linux world, it is a first-level citizen, meaning that most of the time we use terminal (writing commands) to do tasks instead of GUI (clicking and dragging). This is very fast as compared to GUI and  gives the user more control over what he can do. It has a steep learning curve for those who are accustomed to the GUI way of doing things, but when you do master it, it's a really valuable skill to have in your arsenal, which makes you more productive and also it looks really cool because all the hardcore programmers and hackers use it in the movies.
 
 ### Directory
-You already know what a Directory is, believe me. In Linux, folders are known as Directories.
+You already know what a Directory is, believe me. In Linux, **folders** are known as Directories.
 #### Root Directory ( / )
-Everything on your Linux system is located under the root ( / ) directory. You can think of it as C:\\directory in Windows but there are some significant differences between the two. For example, in Windows, another partition would be located at D:\\ but in Linux, it will appear under the root ( / ) directory. So, when I say everything is located under root ( / ), I mean everything.
+Everything on your Linux system is located under the root ( / ) directory. You can think of it as C:\\directory in Windows but there are some significant differences between the two. For example, in Windows, another partition would be located at D:\\ but in Linux, it will appear under the root ( / ) directory. So, when I say everything is located under root ( / ), I mean **everything**.
 #### Home Directory ( ~ )
 Home directory contains a home folder for each user. It is usually represented by ( ~ ). This home folder contains user specific data files and configuration files. This is just like as in Windows there are separate folders for each user in C:\\user where user stores Documents, Pictures, Downloads etc.  
 For example, if I am a user in Windows, the path to my Downloads folder will be something like C:\\user\\Aadam\\Downloads, but in Linux, it will be /home/Aadam/Downloads. Similarly, if there is another user, his path to Downloads folder will be something like C:\\user\\OtherUser\\Downloads in Windows and /home/OtherUser/Downloads in Linux. That way each user has a separate Downloads folder and one user can't access the Downloads folder of the other user.
@@ -101,7 +81,7 @@ For example, you can always check the contents of `/home` regardless of your cur
 
 Here, `ls` is the command, `-la` are the options and `/home` is the argument that indicates which file or directory to list.
 
-## Conclusion
+## Wrap Up
 Now you have learned about the basics of the Linux terminal ( and some basic commands), you should have a good foundation for expanding your knowledge of Linux commands. In the next tutorial, we will learn how to navigate, view and edit files.
 
-If you have any questions, feel free to ask me in the comments below.
+If you have any questions, feel free to ask in the comments.

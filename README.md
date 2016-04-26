@@ -1,3 +1,3 @@
-# My Awesome Book
+# Operating System Notes
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+These are my notes for the presentations in which I'll explain some of the operating system concepts using C language. 

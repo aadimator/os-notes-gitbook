@@ -1,37 +1,18 @@
-+++
-date = "2016-03-20T21:00:33+05:00"
-title = "Basic Linux Navigation and File Management"
-draft = true
+# Navigation
+To work in a new environment, the most necessary skill in order to survive is to learn how to navigate that environemnt. If you are unalbe to do so, you won't be able to do anything else. You'll always feel like a mouse trapped in a maze. So, now we'll look at some of the basic commands for basic navigation in the Linux operating system.
 
-tags = [
-    "linux",
-    "ubuntu",
-    "operating-system",
-    "commands"
-]
-categories = [
-    "Development",
-    "Linux",
-    "Ubuntu",
-]
-description = "Here I will show some of the most basic commands to work in linux terminal like "
-+++
+## pwd
 
-## Navigation
-To work in a new environment, the most necessary skill is to learn how to navigate that environemnt. If you are unalbe to do so, you won't be able to anything else.
+## ls
 
-### pwd
+## cd
 
-### ls
+## mkdir
 
-### cd
+## rmdir
 
-### mkdir
+## cp
 
-### rmdir
+## mv
 
-### cp
-
-### mv
-
-### rm
+## rm
