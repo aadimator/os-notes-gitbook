@@ -1,0 +1,2 @@
+# File Manipulation
+Up until now, we've been working with directories only, how to create them, delete them etc. Now, we'll turn our focus towards the Files and learn how to create them, delete them, copy them, edit them etc. So without further ado, let's get started.
