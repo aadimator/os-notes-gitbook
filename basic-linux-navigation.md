@@ -60,7 +60,7 @@ Now, let's say I want to go into my 'Downloads' directory. To do that, I'll just
 ```
     $ cd Downloads
 ```
-and that's it. It'll change my 'cwd' to Downloads. Now if I execute the `ls` command, it'll shown the list of content present in the 'Downloads' folder. Here we provided the argument as a **relative path**, because we were referring to the folder (Downloads) relative to the `cwd`.  
+and that's it. It'll change my `cwd` to Downloads. Now if I execute the `ls` command, it'll shown the list of content present in the 'Downloads' folder. Here we provided the argument as a **relative path**, because we were referring to the folder (Downloads) relative to the `cwd`.  
 The other way is to use **absolute path**. In this method, we provide the full path of the directory that we want, regardless of the `cwd`. For example, 
 ```
     $ cd /usr/bin
