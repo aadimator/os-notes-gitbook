@@ -1,4 +1,4 @@
-# Let's move somewhere else with 'cd'
+# Move someplace else
 You can easily move from one directory to another by using the `cd` command (stands for 'change directory'). For example, let's say I'm in my 'home' directory. Now to see where I can go, I'll type the `ls` command and see all the directories that I can go to.
 ```
     $ ls

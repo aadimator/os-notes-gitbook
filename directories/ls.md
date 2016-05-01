@@ -1,4 +1,4 @@
-# Looking at the Contents : ls
+# Looking at the Contents
 Now that you know where you are, let's move on. We'll learn how to look at the contents of a directory. We'll see which files and directories are located in a particular directory.  
 To see the contents of a directory, just enter the following command:
 ```
